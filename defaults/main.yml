@@ -1,0 +1,30 @@
+---
+# defaults file for ansible-role-pip
+packages:
+  - "molecule[docker]"
+  - aws-shell
+  - awscli
+  - flake8
+  - gita
+  - gitlabber
+  - grip
+  - httpie
+  - ipython
+  - jedi
+  - jupyterlab
+  - khal
+  - khard
+  - matplotlib
+  - molecule
+  - mycli
+  - neovim-remote
+  - pandas
+  - python-rofi
+  - selenium
+  - s4cmd
+  - speedtest-cli
+  - pytest-testinfra
+  - thefuck
+  - ueberzug
+  - yamllint
+  - vdirsyncer
