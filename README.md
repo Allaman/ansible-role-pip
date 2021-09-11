@@ -13,22 +13,15 @@ Run `molecule test` to test this role in a docker container
 
 ## Role Variables
 
-- NA
+- `pip_packages`: a list of all pip packages to be installed
 
 ## Dependencies
 
-ansible-role-basic
+- ansible-role-language
 
 ## Example Playbook
 
-```
----
-- name: Playbook
-  hosts: localhost
-  connection: local
-  roles:
-    - ansible-role-pip
-```
+See [converge.yml](https://github.com/Allaman/ansible-role-pip/blob/main/molecule/default/converge.yml)
 
 ## License
 
