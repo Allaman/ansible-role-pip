@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0] - 2021-09-11
+
+### Removed
+
+- dependent roles; you must ensure that `pip` is available on your system
+
 ## [1.0.0] - 2021-09-11
 
 ### Changed

@@ -8,8 +8,7 @@ Run `molecule test` to test this role in a docker container
 
 ## Requirements
 
-- Arch Linux or Ubuntu based OS
-- Sudo permissions (for dependencies)
+- `pip` is available in your $PATH
 
 ## Role Variables
 
@@ -17,7 +16,7 @@ Run `molecule test` to test this role in a docker container
 
 ## Dependencies
 
-- ansible-role-language
+- NA
 
 ## Example Playbook
 
